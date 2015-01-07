@@ -1,3 +1,4 @@
+
 ## -*- docker-image-name: "moul/armhf-bench" -*-
 FROM armbuild/ocs-app-docker:vivid
 MAINTAINER Manfred Touron <m@42.am>
@@ -11,6 +12,7 @@ RUN /usr/local/sbin/builder-enter
 RUN apt-get -q update &&      \
     apt-get -y -qq upgrade && \
     apt-get install -y -qq    \
+        build-essential       \
         phoronix-test-suite   \
     && apt-get clean
 

@@ -1,1 +1,2 @@
 docker-rules.mk
+.docker-container.built
