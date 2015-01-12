@@ -13,7 +13,9 @@ RUN apt-get -q update &&      \
     apt-get -y -qq upgrade && \
     apt-get install -y -qq    \
         build-essential       \
+        git                   \
         phoronix-test-suite   \
+        unzip                 \
     && apt-get clean
 
 
