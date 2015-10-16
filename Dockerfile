@@ -1,6 +1,4 @@
-
-## -*- docker-image-name: "moul/armhf-bench" -*-
-FROM armbuild/ocs-app-docker:vivid
+FROM scaleway/docker:latest
 MAINTAINER Manfred Touron <m@42.am>
 
 
