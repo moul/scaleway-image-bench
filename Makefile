@@ -6,8 +6,8 @@ DESCRIPTION =		Image with benchmark tools
 SOURCE_URL =		https://github.com/moul/scaleway-image-bench
 
 
-## Image tools  (https://github.com/online-labs/image-tools)
+## Image tools  (https://github.com/scaleway/image-tools)
 all:	docker-rules.mk
 docker-rules.mk:
-	wget -qO - http://j.mp/image-tools | bash
+	wget -qO - http://j.mp/scw-builder | bash
 -include docker-rules.mk
