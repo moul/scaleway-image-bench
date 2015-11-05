@@ -1,4 +1,4 @@
-FROM scaleway/docker:latest
+FROM scaleway/docker:1.9.0
 MAINTAINER Manfred Touron <m@42.am>
 
 
