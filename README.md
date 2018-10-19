@@ -1,6 +1,8 @@
 Bench image on Online Labs
 ==========================
 
+[![GuardRails badge](https://badges.production.guardrails.io/moul/scaleway-image-bench.svg)](https://www.guardrails.io)
+
 Scripts to build the Bench image on Online Labs
 
 This image is built using [Image Tools](https://github.com/online-labs/image-tools) and depends on the official [Docker](https://github.com/online-labs/image-app-docker) image.
